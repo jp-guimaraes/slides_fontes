@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Fontes</title>
-    <link>http://example.org/home/</link>
+    <link>https://jp-guimaraes.github.io/slides_fontes/home/</link>
     <description>Recent content in Homes on Fontes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://example.org/home/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jp-guimaraes.github.io/slides_fontes/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://example.org/home/1_intro/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/1_intro/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/home/1_intro/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/1_intro/</guid>
       <description> ❓
 Objetivos da aula: Entendimento do funcionamento básico de fontes de computadores para correto dimensionamento;
  Fontes  Laptop    Desktop    Smartphone   O que elas têm em comum?
@@ -25,10 +25,10 @@ Objetivos da aula: Entendimento do funcionamento básico de fontes de computador
     
     <item>
       <title></title>
-      <link>http://example.org/home/2_tecnologias/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/2_tecnologias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/home/2_tecnologias/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/2_tecnologias/</guid>
       <description>Tecnologias de conversão AC-DC  Fontes lineares Fontes chaveadas   Fontes lineares Prós: Robustas, simples, mais fácil projetar
 Contras: Volumosas e pesadas
 Custo: Depende dos requisitos e componentes envolvidos
@@ -43,10 +43,10 @@ Saída DC
     
     <item>
       <title></title>
-      <link>http://example.org/home/3_dimensionamento/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/3_dimensionamento/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/home/3_dimensionamento/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/3_dimensionamento/</guid>
       <description>Dimensionamento Laptops e smartphones
 Potência equivalente ou superior, o que significa:
 Mesma tensão de trabalho e corrente maior ou igual a fonte equivalente.
@@ -60,10 +60,10 @@ Conferir orientações do fabricante
     
     <item>
       <title></title>
-      <link>http://example.org/home/4_desktops/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/4_desktops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/home/4_desktops/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/4_desktops/</guid>
       <description>Desktops Particularidades: Não existe bateria integrada
 Entrada
 Multiplas tensões alternadas (100 ~240V AC)
@@ -79,10 +79,10 @@ Aprofundaremos nas próximas aulas quando abordarmos placas-mãe
     
     <item>
       <title></title>
-      <link>http://example.org/home/eficiencia/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/eficiencia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/home/eficiencia/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/eficiencia/</guid>
       <description> Eficiencia de fontes (perdas)
 Quanto de energia está sendo usado para realizar efetivamente trabalho?
  PFC Power factor
@@ -91,10 +91,10 @@ Quanto de energia está sendo usado para realizar efetivamente trabalho?
     
     <item>
       <title></title>
-      <link>http://example.org/home/tipos_fontes_desktop/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/tipos_fontes_desktop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/home/tipos_fontes_desktop/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/tipos_fontes_desktop/</guid>
       <description>Evolução das fontes de desktop   Fontes AT
   Fontes ATX
   </description>
@@ -102,10 +102,10 @@ Quanto de energia está sendo usado para realizar efetivamente trabalho?
     
     <item>
       <title></title>
-      <link>http://example.org/home/tendencias/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/tendencias/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/home/tendencias/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/tendencias/</guid>
       <description>Tendências USB-C
  (2006)
  The technical changes we propose are very small and low-risk. For historical reasons dating back to the original IBM PC in 1981, standard PC power supplies provide multiple output voltages, most of which are no longer used directly in today’s PCs. Back in 1981 the chips actually did need all these voltages. But those times are long gone.
