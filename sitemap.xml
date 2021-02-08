@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/home/1_intro/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/home/2_tecnologias/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/home/3_dimensionamento/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/home/4_desktops/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/home/eficiencia/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/home/tipos_fontes_desktop/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/home/tendencias/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/home/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+  
+</urlset>

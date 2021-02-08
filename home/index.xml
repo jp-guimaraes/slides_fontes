@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Fontes</title>
+    <link>http://example.org/home/</link>
+    <description>Recent content in Homes on Fontes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://example.org/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://example.org/home/1_intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/1_intro/</guid>
+      <description> ❓
+Objetivos da aula: Entendimento do funcionamento básico de fontes de computadores para correto dimensionamento;
+ Fontes  Laptop    Desktop    Smartphone   O que elas têm em comum?
+ div.box { width: 250px; display: inline-block; }   Funcionamento base Converter AC (tomada) para DC
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/home/2_tecnologias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/2_tecnologias/</guid>
+      <description>Tecnologias de conversão AC-DC  Fontes lineares Fontes chaveadas   Fontes lineares Prós: Robustas, simples, mais fácil projetar
+Contras: Volumosas e pesadas
+Custo: Depende dos requisitos e componentes envolvidos
+ Fontes lineares Entrada AC
+Diminuição da tensão (Conversão AC -&amp;gt; AC): Transformador
+Retificador (Onda senoidal sempre positiva): Diodo
+Filtro (Eliminação do Ripple): Capacitor
+Regulação (Conversão DC -&amp;gt; DC): CI
+Saída DC
+ Fontes chaveadas Utilizam componentes comutados (chaves)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/home/3_dimensionamento/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/3_dimensionamento/</guid>
+      <description>Dimensionamento Laptops e smartphones
+Potência equivalente ou superior, o que significa:
+Mesma tensão de trabalho e corrente maior ou igual a fonte equivalente.
+Conferir orientações do fabricante
+ Potência menor? Smartphones
+ Smartphones vão carregar mais devagar   Potência menor?   Laptops vão carregar mais devagar
+  Perda de desempenho e não funcionamento adequado
+  Sistemas operacionais modernos com perfis de consumo energético
+  (Placas gráficas -&amp;gt; alto consumo energético)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/home/4_desktops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/4_desktops/</guid>
+      <description>Desktops Particularidades: Não existe bateria integrada
+Entrada
+Multiplas tensões alternadas (100 ~240V AC)
+Saída
+Multiplas tensões contínuas (3.3V, 5V, 12V, -12V, -5V DC)
+ Conversões terminam aí? Componentes internos do computador funcionam em tensões diferentes
+Placa mãe - Voltage regulator module (VRM) - Processor power module (PPM)
+DC-DC
+1~1.5V
+Aprofundaremos nas próximas aulas quando abordarmos placas-mãe
+ Quiz 4 Especifique todas as transformações e conversões da tensão desde a tomada, passando pelo nobreak, até um elemento como o processador de um computador.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/home/eficiencia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/eficiencia/</guid>
+      <description> Eficiencia de fontes (perdas)
+Quanto de energia está sendo usado para realizar efetivamente trabalho?
+ PFC Power factor
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/home/tipos_fontes_desktop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/tipos_fontes_desktop/</guid>
+      <description>Evolução das fontes de desktop   Fontes AT
+  Fontes ATX
+  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/home/tendencias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/home/tendencias/</guid>
+      <description>Tendências USB-C
+ (2006)
+ The technical changes we propose are very small and low-risk. For historical reasons dating back to the original IBM PC in 1981, standard PC power supplies provide multiple output voltages, most of which are no longer used directly in today’s PCs. Back in 1981 the chips actually did need all these voltages. But those times are long gone.
+ paper
+ (2008)
+uninterruptible power supply (UPS) Patente de engenheiros da Google</description>
+    </item>
+    
+  </channel>
+</rss>
