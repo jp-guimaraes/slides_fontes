@@ -30,8 +30,17 @@
     <section>
 
 <section data-shortcode-section>
-<p>❓</p>
-<p>Objetivos da aula: Entendimento do funcionamento básico de fontes de computadores para correto dimensionamento;</p>
+<h1 id="objetivos">Objetivos</h1>
+<p>Entendimento do funcionamento básico de fontes de computadores para correto dimensionamento;</p>
+</section><section>
+<h1 id="sumário">Sumário</h1>
+<ul>
+<li>Introdução</li>
+<li>Tecnologias</li>
+<li>Evolução das fontes</li>
+<li>Dimensionamento de Fontes</li>
+<li>Fontes de Desktop</li>
+</ul>
 </section><section>
 <h1 id="fontes">Fontes</h1>
 <!DOCTYPE html>
@@ -57,6 +66,33 @@ div.box {
 </section><section>
 <h1 id="funcionamento-base">Funcionamento base</h1>
 <p>Converter AC (tomada) para DC</p>
+</section><section>
+<h1 id="características">Características</h1>
+<ul>
+<li>Potência (W)</li>
+<li>Tensão de entrada
+<ul>
+<li>110V/220V/Full Range</li>
+</ul>
+</li>
+<li>Proteções
+<ul>
+<li>Picos de tensão, corrente, temperatura</li>
+</ul>
+</li>
+<li>Eficiência
+<ul>
+<li>PFC</li>
+<li>Selos</li>
+</ul>
+</li>
+<li>Conexões
+<ul>
+<li>Fixa, Modular</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://www.kabum.com.br/hardware/fontes">Exemplos</a></p>
 
 </section>
 </section>
@@ -68,6 +104,7 @@ div.box {
 <li>Fontes lineares</li>
 <li>Fontes chaveadas</li>
 </ul>
+<p><img src="https://eletricidadesemsegredosblog.files.wordpress.com/2017/10/sem-tc3adtulo6.png" alt=""></p>
 </section><section>
 <h1 id="fontes-lineares">Fontes lineares</h1>
 <p>Prós: Robustas, simples, mais fácil projetar</p>
@@ -84,8 +121,15 @@ div.box {
 </section><section>
 <h1 id="fontes-chaveadas">Fontes chaveadas</h1>
 <p>Utilizam componentes comutados (chaves)</p>
-<p>Prós: São pequenas e leves comparadas a fontes lineares
-Contra: Não tão robustas, mais difíceis de projetar e consertar;</p>
+<p>Prós: São pequenas e leves comparadas a fontes lineares</p>
+<p>Contra: Não tão robustas, mais difíceis de projetar e consertar;</p>
+</section><section>
+<h1 id="quiz">Quiz!</h1>
+<p>Fonte chaveada ou linear?</p>
+</section><section>
+<p><img src="http://electronics-diy.com/schematics/965/KNQ7psuSchematic.jpg" alt=""></p>
+</section><section>
+<p><img src="http://www.pavouk.org/hw/atxps.png" alt=""></p>
 </section><section>
 <h1 id="fontes-chaveadas-1">Fontes chaveadas</h1>
 <p>Entendendo o chaveamento: O que é PWM?</p>
@@ -97,8 +141,131 @@ Contra: Não tão robustas, mais difíceis de projetar e consertar;</p>
     <section>
 
 <section data-shortcode-section>
-<h1 id="dimensionamento">Dimensionamento</h1>
-<p>Laptops e smartphones</p>
+<h1 id="fontes-em-desktops">Fontes em Desktops</h1>
+<p>Particularidades: Não existe bateria integrada</p>
+<p>Evolução do padrão:</p>
+<ul>
+<li>Fontes AT</li>
+<li>Fontes ATX</li>
+</ul>
+<p><strong>Entrada</strong></p>
+<p>Multiplas tensões alternadas (100 ~240V AC)</p>
+<p><strong>Saída</strong></p>
+<p>Multiplas tensões contínuas (3.3V, 5V, 12V, -12V, -5V DC) (Fontes ATX)</p>
+</section><section>
+<h1 id="fontes-at">Fontes AT:</h1>
+<p>Um pouco de nostalgia (advanced tecnology&hellip;.)</p>
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBS8FBMCVq9gVp-7PfGIsOayPlFBq9HqPQrQ&amp;usqp=CAU" alt=""></p>
+<p><img src="http://2.bp.blogspot.com/-XtXXzl7RPGw/UDwh0KM_qhI/AAAAAAAAU6c/g9qqs2sMwXs/s1600/304529_278166832284948_1677568197_n.jpg" alt=""></p>
+</section><section>
+<h1 id="fontes-atx">Fontes ATX</h1>
+<p>(Advanced Tecnology eXtended)</p>
+<p>Introdução da tensão de 3,3V que não existia no padrão anterior</p>
+<p><img src="https://www.smpspowersupply.com/connector_atx_pinout.GIF" alt=""></p>
+</section><section>
+<h1 id="pinos-especiais">Pinos especiais?</h1>
+<p>Ligar o computador: Procedimentos (botão -&gt; placa-mãe -&gt; fonte)</p>
+<p><img src="https://www.smpspowersupply.com/connector_atx_pinout.GIF" alt=""></p>
+</section><section>
+<h1 id="heading">?</h1>
+<p>Por que são necessarias tantas tensões diferentes?</p>
+<ul>
+<li>
+<p>Processador, módulos de memória</p>
+</li>
+<li>
+<p>Periféricos (mouse, teclado -&gt; USB)</p>
+</li>
+<li>
+<p>Motores (Disco rígido, cooler, drivers óticos)</p>
+</li>
+</ul>
+</section><section>
+<h1 id="conversões-terminam-aí">Conversões terminam aí?</h1>
+<p>Componentes internos do computador funcionam em tensões diferentes</p>
+<p>Placa mãe - Voltage regulator module (VRM) - Processor power module (PPM)</p>
+<p>DC-DC</p>
+<p>1~1.5V</p>
+<p>(Aprofundaremos nas próximas aulas quando abordarmos placas-mãe)</p>
+</section><section>
+<h1 id="quiz">Quiz</h1>
+<p>Especifique todas as transformações e conversões da tensão desde a tomada, passando pelo nobreak, até um elemento como o processador de um computador.</p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="eficiencia-de-fontes">Eficiencia de fontes</h1>
+<p>(perdas)</p>
+<p>Quanto de energia está sendo usado para realizar efetivamente trabalho?</p>
+<p>Relação entre: Entrada (rede) / saída (componentes)</p>
+</section><section>
+<h1 id="certificações">Certificações</h1>
+<p><a href="https://www.clearesult.com/80plus/">80 Plus</a></p>
+<p><a href="https://www.cybenetics.com/">ETA &amp; LAmbda</a></p>
+<p><a href="https://www.pcgamer.com/power-supplies-are-getting-new-efficiency-and-noise-certifications/">Leitura complementar</a></p>
+</section><section>
+<h1 id="entendendo-as-classificações">Entendendo as classificações</h1>
+<p>Eficiência sob diferentes níveis de carga</p>
+<ul>
+<li>20% (carga leve)</li>
+<li>50% (carga típica)</li>
+<li>100% (carga máxima)</li>
+</ul>
+</section><section>
+<p><img src="https://www.oficinadanet.com.br/imagens/post/20797/selo_80_plus.png" alt=""></p>
+</section><section>
+<h1 id="curva-de-desempenho">Curva de desempenho</h1>
+<p><img src="http://www.hardwaresecrets.com/wp-content/uploads/181_31.jpg" alt=""></p>
+</section><section>
+<h1 id="pfc">PFC</h1>
+<p>Power factor Correction</p>
+<p>PFC ausente</p>
+<p>PFC Passivo</p>
+<p>PFC Ativo</p>
+
+</section>
+</section>
+    <section>
+
+<section data-shortcode-section>
+<h1 id="dimensionamento-de-fontes">Dimensionamento de fontes</h1>
+</section><section>
+<h1 id="desktops">Desktops</h1>
+<p>Levar em conta potência dos componentes internos:</p>
+<ul>
+<li>Processador</li>
+<li>Placa de vídeo</li>
+<li>HD, Memórias</li>
+</ul>
+<p>E eficiência!</p>
+<p><a href="https://www.google.com/search?channel=fs&amp;client=ubuntu&amp;q=psu+calculator">Simuladores</a></p>
+</section><section>
+<h1 id="informações-técnicas">Informações técnicas</h1>
+<p><img src="https://10scopes.com/wp-content/uploads/2020/08/what-is-my-power-supply-wattage.jpg" alt=""></p>
+</section><section>
+<p><img src="https://images2.kabum.com.br/produtos/fotos/115282/fonte-c3-plus-200w-ps-200v4_1595259380_gg.jpg" alt=""></p>
+</section><section>
+<h1 id="outros-requisitos">Outros requisitos</h1>
+<ul>
+<li>
+<p>Conectores (modular, semi-modular, fixo)</p>
+</li>
+<li>
+<p>Calor</p>
+</li>
+<li>
+<p>Barulho</p>
+</li>
+<li>
+<p>Tamanho físico</p>
+</li>
+</ul>
+</section><section>
+<h1 id="laptops-e-smartphones">Laptops e smartphones</h1>
+</section><section>
+<h1 id="cuidados">Cuidados</h1>
 <p>Potência equivalente ou superior, o que significa:</p>
 <p>Mesma tensão de trabalho e corrente maior ou igual a fonte equivalente.</p>
 <p>Conferir orientações do fabricante</p>
@@ -132,67 +299,64 @@ Contra: Não tão robustas, mais difíceis de projetar e consertar;</p>
 <p>Smartphones: USB</p>
 <p>USB-C</p>
 </section><section>
-<h1 id="e-no-caso-de-computadores-de-mesa">E no caso de computadores de mesa?</h1>
+<h1 id="trabalho">Trabalho</h1>
+<p>Especificar fonte para Desktop e Notebook (alternativa) e Nobreak</p>
+<p>Escolha do produto + justificativa</p>
 
 </section>
 </section>
     <section>
 
 <section data-shortcode-section>
-<h1 id="desktops">Desktops</h1>
-<p>Particularidades: Não existe bateria integrada</p>
-<p><strong>Entrada</strong></p>
-<p>Multiplas tensões alternadas (100 ~240V AC)</p>
-<p><strong>Saída</strong></p>
-<p>Multiplas tensões contínuas (3.3V, 5V, 12V, -12V, -5V DC)</p>
+<h1 id="problemas">Problemas?</h1>
+<p>Testes!</p>
+<p>Solução de problemas (troubleshooting)</p>
 </section><section>
-<h1 id="conversões-terminam-aí">Conversões terminam aí?</h1>
-<p>Componentes internos do computador funcionam em tensões diferentes</p>
-<p>Placa mãe - Voltage regulator module (VRM) - Processor power module (PPM)</p>
-<p>DC-DC</p>
-<p>1~1.5V</p>
-<p>Aprofundaremos nas próximas aulas quando abordarmos placas-mãe</p>
+<h1 id="testes-em-uma-fonte-atx">Testes em uma fonte ATX</h1>
+<p>Avaliação das tensões com multímetro?</p>
 </section><section>
-<h1 id="quiz-4">Quiz 4</h1>
-<p>Especifique todas as transformações e conversões da tensão desde a tomada, passando pelo nobreak, até um elemento como o processador de um computador.</p>
+<h1 id="como-testar-uma-fonte">Como testar uma fonte?</h1>
+<p>Teste básico: Fonte liga?</p>
 </section><section>
-<h1 id="dimensionamento">Dimensionamento</h1>
-<p>Levar em conta potência dos componentes internos:</p>
-<ul>
-<li>Processador</li>
-<li>Placa de vídeo</li>
-<li>HD, Memórias</li>
-</ul>
+<h1 id="carga">Carga</h1>
+<p>(teste 2)</p>
+<p>É necessário incluir uma carga.</p>
+<p>Stress test</p>
+</section><section>
+<h1 id="análise-de-nível-de-tensão-e-ruído">Análise de nível de tensão e ruído</h1>
+<p>(Simulador Python)</p>
+</section><section>
+<h1 id="equipamentos-interessantes">Equipamentos interessantes</h1>
+<p>Cargas eletrônicas
+Osciloscópio</p>
+<p>Wattimetro</p>
+<p>Outra fonte</p>
+<p>Softwares</p>
+<p>Computador</p>
+</section><section>
+<h1 id="busca-por-avarias">Busca por avarias</h1>
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS984U1mbSDJXk8vDrKx2mRO5T6cBXVJfJY5Q&amp;usqp=CAU" alt=""></p>
+</section><section>
+<p><img src="https://i.stack.imgur.com/fYGTI.jpg" alt=""></p>
+</section><section>
+<h1 id="adaptadores">Adaptadores</h1>
+<p>Evite!</p>
+<p>Tanto para SATA como principalmente para Placas de vídeo</p>
+<p><a href="https://www.clubedohardware.com.br/uploads/oldcmsimages/3057_01.jpg">🔥</a></p>
 
 </section>
-</section>
-    <section>
-
-<section data-shortcode-section>
-<h1 id="eficiencia-de-fontes">Eficiencia de fontes</h1>
-<p>(perdas)</p>
-<p>Quanto de energia está sendo usado para realizar efetivamente trabalho?</p>
-</section><section>
-<h1 id="pfc">PFC</h1>
-<p>Power factor</p>
-
-</section>
-</section>
-    <section><h1 id="evolução-das-fontes-de-desktop">Evolução das fontes de desktop</h1>
-<ul>
-<li>
-<p>Fontes AT</p>
-</li>
-<li>
-<p>Fontes ATX</p>
-</li>
-</ul>
 </section>
     <section>
 
 <section data-shortcode-section>
 <h1 id="tendências">Tendências</h1>
 <p>USB-C</p>
+</section><section>
+<h1 id="software">Software</h1>
+<p>Controle de variáveis
+- Velocidade de rotação de ventoinhas
+- Desempenho</p>
+<p>Monitoramento de consumo instantâneo</p>
 </section><section>
 <p>(2006)</p>
 <blockquote>

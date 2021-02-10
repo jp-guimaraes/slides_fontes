@@ -16,11 +16,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jp-guimaraes.github.io/slides_fontes/home/1_intro/</guid>
-      <description> ❓
-Objetivos da aula: Entendimento do funcionamento básico de fontes de computadores para correto dimensionamento;
- Fontes  Laptop    Desktop    Smartphone   O que elas têm em comum?
+      <description>Objetivos Entendimento do funcionamento básico de fontes de computadores para correto dimensionamento;
+ Sumário  Introdução Tecnologias Evolução das fontes Dimensionamento de Fontes Fontes de Desktop   Fontes  Laptop    Desktop    Smartphone   O que elas têm em comum?
  div.box { width: 250px; display: inline-block; }   Funcionamento base Converter AC (tomada) para DC
- </description>
+ Características  Potência (W) Tensão de entrada  110V/220V/Full Range   Proteções  Picos de tensão, corrente, temperatura   Eficiência  PFC Selos   Conexões  Fixa, Modular    Exemplos</description>
     </item>
     
     <item>
@@ -43,75 +42,93 @@ Saída DC
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/slides_fontes/home/3_dimensionamento/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/3_fontes_desktops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/slides_fontes/home/3_dimensionamento/</guid>
-      <description>Dimensionamento Laptops e smartphones
-Potência equivalente ou superior, o que significa:
-Mesma tensão de trabalho e corrente maior ou igual a fonte equivalente.
-Conferir orientações do fabricante
- Potência menor? Smartphones
- Smartphones vão carregar mais devagar   Potência menor?   Laptops vão carregar mais devagar
-  Perda de desempenho e não funcionamento adequado
-  Sistemas operacionais modernos com perfis de consumo energético
-  (Placas gráficas -&amp;gt; alto consumo energético)</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jp-guimaraes.github.io/slides_fontes/home/4_desktops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://jp-guimaraes.github.io/slides_fontes/home/4_desktops/</guid>
-      <description>Desktops Particularidades: Não existe bateria integrada
-Entrada
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/3_fontes_desktops/</guid>
+      <description>Fontes em Desktops Particularidades: Não existe bateria integrada
+Evolução do padrão:
+ Fontes AT Fontes ATX  Entrada
 Multiplas tensões alternadas (100 ~240V AC)
 Saída
-Multiplas tensões contínuas (3.3V, 5V, 12V, -12V, -5V DC)
- Conversões terminam aí? Componentes internos do computador funcionam em tensões diferentes
-Placa mãe - Voltage regulator module (VRM) - Processor power module (PPM)
-DC-DC
-1~1.5V
-Aprofundaremos nas próximas aulas quando abordarmos placas-mãe
- Quiz 4 Especifique todas as transformações e conversões da tensão desde a tomada, passando pelo nobreak, até um elemento como o processador de um computador.</description>
+Multiplas tensões contínuas (3.3V, 5V, 12V, -12V, -5V DC) (Fontes ATX)
+ Fontes AT: Um pouco de nostalgia (advanced tecnology&amp;hellip;.)
+ Fontes ATX (Advanced Tecnology eXtended)
+Introdução da tensão de 3,3V que não existia no padrão anterior
+ Pinos especiais? Ligar o computador: Procedimentos (botão -&amp;gt; placa-mãe -&amp;gt; fonte)</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/slides_fontes/home/eficiencia/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/4_eficiencia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/slides_fontes/home/eficiencia/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/4_eficiencia/</guid>
       <description> Eficiencia de fontes (perdas)
 Quanto de energia está sendo usado para realizar efetivamente trabalho?
- PFC Power factor
+Relação entre: Entrada (rede) / saída (componentes)
+ Certificações 80 Plus
+ETA &amp;amp; LAmbda
+Leitura complementar
+ Entendendo as classificações Eficiência sob diferentes níveis de carga
+ 20% (carga leve) 50% (carga típica) 100% (carga máxima)    Curva de desempenho  PFC Power factor Correction
+PFC ausente
+PFC Passivo
+PFC Ativo
  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/slides_fontes/home/tipos_fontes_desktop/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/5_dimensionamento/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/slides_fontes/home/tipos_fontes_desktop/</guid>
-      <description>Evolução das fontes de desktop   Fontes AT
-  Fontes ATX
-  </description>
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/5_dimensionamento/</guid>
+      <description>Dimensionamento de fontes  Desktops Levar em conta potência dos componentes internos:
+ Processador Placa de vídeo HD, Memórias  E eficiência!
+Simuladores
+ Informações técnicas   Outros requisitos   Conectores (modular, semi-modular, fixo)
+  Calor
+  Barulho
+  Tamanho físico
+   Laptops e smartphones  Cuidados Potência equivalente ou superior, o que significa:
+Mesma tensão de trabalho e corrente maior ou igual a fonte equivalente.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://jp-guimaraes.github.io/slides_fontes/home/tendencias/</link>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/6_testes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://jp-guimaraes.github.io/slides_fontes/home/tendencias/</guid>
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/6_testes/</guid>
+      <description>Problemas? Testes!
+Solução de problemas (troubleshooting)
+ Testes em uma fonte ATX Avaliação das tensões com multímetro?
+ Como testar uma fonte? Teste básico: Fonte liga?
+ Carga (teste 2)
+É necessário incluir uma carga.
+Stress test
+ Análise de nível de tensão e ruído (Simulador Python)
+ Equipamentos interessantes Cargas eletrônicas Osciloscópio
+Wattimetro
+Outra fonte
+Softwares
+Computador
+ Busca por avarias   Adaptadores Evite!
+Tanto para SATA como principalmente para Placas de vídeo</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://jp-guimaraes.github.io/slides_fontes/home/7_tendencias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jp-guimaraes.github.io/slides_fontes/home/7_tendencias/</guid>
       <description>Tendências USB-C
+ Software Controle de variáveis - Velocidade de rotação de ventoinhas - Desempenho
+Monitoramento de consumo instantâneo
  (2006)
- The technical changes we propose are very small and low-risk. For historical reasons dating back to the original IBM PC in 1981, standard PC power supplies provide multiple output voltages, most of which are no longer used directly in today’s PCs. Back in 1981 the chips actually did need all these voltages. But those times are long gone.
- paper
- (2008)
-uninterruptible power supply (UPS) Patente de engenheiros da Google</description>
+ The technical changes we propose are very small and low-risk. For historical reasons dating back to the original IBM PC in 1981, standard PC power supplies provide multiple output voltages, most of which are no longer used directly in today’s PCs. Back in 1981 the chips actually did need all these voltages.</description>
     </item>
     
   </channel>
