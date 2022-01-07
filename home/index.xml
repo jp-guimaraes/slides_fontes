@@ -64,18 +64,17 @@ Introdução da tensão de 3,3V que não existia no padrão anterior
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://jp-guimaraes.github.io/slides_fontes/home/4_eficiencia/</guid>
-      <description> Eficiencia de fontes (perdas)
+      <description>Eficiencia de fontes (perdas)
 Quanto de energia está sendo usado para realizar efetivamente trabalho?
 Relação entre: Entrada (rede) / saída (componentes)
  Certificações 80 Plus
 ETA &amp;amp; LAmbda
 Leitura complementar
  Entendendo as classificações Eficiência sob diferentes níveis de carga
- 20% (carga leve) 50% (carga típica) 100% (carga máxima)    Curva de desempenho  PFC Power factor Correction
+ 20% (carga leve) 50% (carga típica) 100% (carga máxima)    Curva de eficiência  Mais um exemplo
+ PFC Power factor Correction
 PFC ausente
-PFC Passivo
-PFC Ativo
- </description>
+PFC Passivo</description>
     </item>
     
     <item>
