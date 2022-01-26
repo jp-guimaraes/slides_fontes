@@ -73,8 +73,7 @@ Leitura complementar
  Entendendo as classificações Eficiência sob diferentes níveis de carga
  20% (carga leve) 50% (carga típica) 100% (carga máxima)    Curva de eficiência  Mais um exemplo
  PFC Power factor Correction
-PFC ausente
-PFC Passivo</description>
+Relembrando o Fator de potência</description>
     </item>
     
     <item>
@@ -90,7 +89,7 @@ Simuladores
   Calor
   Barulho
   Tamanho físico
-   Laptops e smartphones  Cuidados Potência equivalente ou superior, o que significa:
+   Laptops e smartphones  Cuidados Potência equivalente ou superior, o que significa?
 Mesma tensão de trabalho e corrente maior ou igual a fonte equivalente.</description>
     </item>
     
@@ -108,7 +107,8 @@ Solução de problemas (troubleshooting)
 É necessário incluir uma carga.
 Stress test
  Análise de nível de tensão e ruído (Simulador Python)
- Equipamentos interessantes Cargas eletrônicas Osciloscópio
+ Equipamentos interessantes Cargas eletrônicas
+Osciloscópio
 Wattimetro
 Outra fonte
 Softwares
