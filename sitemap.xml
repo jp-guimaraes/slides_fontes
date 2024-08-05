@@ -1,49 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/home/1_intro/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/home/2_tecnologias/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/home/3_fontes_desktops/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/home/4_eficiencia/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/home/5_dimensionamento/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/home/6_testes/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/home/7_tendencias/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/home/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://jp-guimaraes.github.io/slides_fontes/tags/</loc>
   </url>
-  
 </urlset>
